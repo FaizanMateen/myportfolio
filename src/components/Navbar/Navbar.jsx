@@ -110,7 +110,7 @@ function Navbar() {
               {menuItems.map((item) => (
                 <li
                   key={item.id}
-                  className={`cursor-pointer hover:text-red-700 ${
+                  className={`cursor-pointer hover:text-white ${
                     activeSection === item.id ? "text-[#8245ec]" : ""
                   }`}
                 >
