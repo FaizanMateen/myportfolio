@@ -1,301 +1,238 @@
 // Skills Section Logo's
-import htmlLogo from './assets/tech_logo/html.png';
-import cssLogo from './assets/tech_logo/css.png';
-import sassLogo from './assets/tech_logo/sass.png';
-import javascriptLogo from './assets/tech_logo/javascript.png';
-import reactjsLogo from './assets/tech_logo/reactjs.png';
-import angularLogo from './assets/tech_logo/angular.png';
-import reduxLogo from './assets/tech_logo/redux.png';
-import nextjsLogo from './assets/tech_logo/nextjs.png';
-import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import gsapLogo from './assets/tech_logo/gsap.png';
-import materialuiLogo from './assets/tech_logo/materialui.png';
-import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-import springbootLogo from './assets/tech_logo/springboot.png';
-import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
-import mysqlLogo from './assets/tech_logo/mysql.png';
-import mongodbLogo from './assets/tech_logo/mongodb.png';
-import firebaseLogo from './assets/tech_logo/firebase.png';
-import cLogo from './assets/tech_logo/c.png';
-import cppLogo from './assets/tech_logo/cpp.png';
-import javaLogo from './assets/tech_logo/java.png';
-import pythonLogo from './assets/tech_logo/python.png';
-import typescriptLogo from './assets/tech_logo/typescript.png';
-import gitLogo from './assets/tech_logo/git.png';
-import githubLogo from './assets/tech_logo/github.png';
-import vscodeLogo from './assets/tech_logo/vscode.png';
-import postmanLogo from './assets/tech_logo/postman.png';
-import mcLogo from './assets/tech_logo/mc.png';
-import figmaLogo from './assets/tech_logo/figma.png';
-import netlifyLogo from './assets/tech_logo/netlify.png';
-import vercelLogo from './assets/tech_logo/vercel.png';
-import postgreLogo from './assets/tech_logo/postgre.png';
-import csharpLogo from './assets/tech_logo/csharp.png';
-
-// Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import htmlLogo from "./assets/tech_logo/html.png";
+import cssLogo from "./assets/tech_logo/css.png";
+import sassLogo from "./assets/tech_logo/sass.png";
+import javascriptLogo from "./assets/tech_logo/javascript.png";
+import reactjsLogo from "./assets/tech_logo/reactjs.png";
+import reduxLogo from "./assets/tech_logo/redux.png";
+import nextjsLogo from "./assets/tech_logo/nextjs.png";
+import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
+import reactnativeLogo from "./assets/tech_logo/reactnative.png";
+import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
+import nodejsLogo from "./assets/tech_logo/nodejs.png";
+import expressjsLogo from "./assets/tech_logo/express.png";
+import mysqlLogo from "./assets/tech_logo/mysql.png";
+import mongodbLogo from "./assets/tech_logo/mongodb.png";
+import cLogo from "./assets/tech_logo/c.png";
+import cppLogo from "./assets/tech_logo/cpp.png";
+import RLogo from "./assets/tech_logo/Rlogo.png";
+import pythonLogo from "./assets/tech_logo/python.png";
+import typescriptLogo from "./assets/tech_logo/typescript.png";
+import gitLogo from "./assets/tech_logo/git.png";
+import githubLogo from "./assets/tech_logo/github.png";
+import vscodeLogo from "./assets/tech_logo/vscode.png";
+import postmanLogo from "./assets/tech_logo/postman.png";
+import mcLogo from "./assets/tech_logo/mc.png";
+import figmaLogo from "./assets/tech_logo/figma.png";
+import netlifyLogo from "./assets/tech_logo/netlify.png";
+import vercelLogo from "./assets/tech_logo/vercel.png";
+import postgreLogo from "./assets/tech_logo/postgre.png";
+import styledcomponentLogo from "./assets/tech_logo/styledcomponent.png";
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import lpuLogo from "./assets/education_logo/lpu_logo.png";
+import pdaLogo from "./assets/education_logo/pda_logo.jpeg";
+import alsharayLogo from "./assets/education_logo/alsharay_logo.png";
+import iisjLogo from "./assets/education_logo/iisj_logo.jpeg";
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
-
+import adventureMate from "./assets/work_logo/AdventureMate.png";
+import wildoasisclient from "./assets/work_logo/wildoasisclient.png";
+import wildoasisadmin from "./assets/work_logo/wild_oasis_admin.png";
+import fastPizza from "./assets/work_logo/fastPizza.png";
+import silentWitness from "./assets/work_logo/silentWitness.png";
+import todayilearned from "./assets/work_logo/todayilearned.png";
+import worldWise from "./assets/work_logo/worldWise.png";
+import usepopcorn from "./assets/work_logo/usepopcorn.png";
+import nexter from "./assets/work_logo/nexter.png";
 
 export const SkillsInfo = [
   {
-    title: 'Frontend',
+    title: "Frontend",
     skills: [
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
-      { name: 'Bootstrap', logo: bootstrapLogo },
+      { name: "HTML", logo: htmlLogo },
+      { name: "CSS", logo: cssLogo },
+      { name: "SASS", logo: sassLogo },
+      { name: "JavaScript", logo: javascriptLogo },
+      { name: "React JS", logo: reactjsLogo },
+      { name: "Redux", logo: reduxLogo },
+      { name: "Next JS", logo: nextjsLogo },
+      { name: "Tailwind CSS", logo: tailwindcssLogo },
+      { name: "Styled Components", logo: styledcomponentLogo },
+      { name: "Bootstrap", logo: bootstrapLogo },
+      { name: "React Native", logo: reactnativeLogo },
     ],
   },
   {
-    title: 'Backend',
+    title: "Backend",
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+      { name: "Node JS", logo: nodejsLogo },
+      { name: "Express JS", logo: expressjsLogo },
+      { name: "MySQL", logo: mysqlLogo },
+      { name: "MongoDB", logo: mongodbLogo },
+      { name: "PostgreSQL", logo: postgreLogo },
     ],
   },
   {
-    title: 'Languages',
+    title: "Languages",
     skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'TypeScript', logo: typescriptLogo },
+      { name: "C", logo: cLogo },
+      { name: "C++", logo: cppLogo },
+      { name: "R", logo: RLogo },
+      { name: "Python", logo: pythonLogo },
+      { name: "JavaScript", logo: javascriptLogo },
+      { name: "TypeScript", logo: typescriptLogo },
     ],
   },
   {
-    title: 'Tools',
+    title: "Tools",
     skills: [
-      { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
-      { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+      { name: "Git", logo: gitLogo },
+      { name: "GitHub", logo: githubLogo },
+      { name: "VS Code", logo: vscodeLogo },
+      { name: "Postman", logo: postmanLogo },
+      { name: "Compass", logo: mcLogo },
+      { name: "Vercel", logo: vercelLogo },
+      { name: "Netlify", logo: netlifyLogo },
+      { name: "Figma", logo: figmaLogo },
     ],
   },
 ];
 
-  export const experiences = [
-    {
-      id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
-  ];
-  
-  export const education = [
-    {
-      id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
-    },
-    {
-      id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
-    },
-    {
-      id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
-    },
-  ];
-  
-  export const projects = [
-    {
-      id: 0,
-      title: "GitHub Profile Detective",
-      description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
-    },
-    {
-      id: 1,
-      title: "CS Prep",
-      description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
-    },
-    {
-      id: 2,
-      title: "Movie Recommendation App",
-      description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    },
-    {
-      id: 3,
-      title: "Email Validator NPM Package",
-      description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    },
-    {
-      id: 4,
-      title: "Task Reminder Chrome Extension Tool",
-      description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    },
-    {
-      id: 5,
-      title: "Webverse Digital",
-      description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
-    },
-    {
-      id: 6,
-      title: "Coding Master",
-      description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
-    },
-    {
-      id: 7,
-      title: "Image Search App",
-      description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
-    },
-  ];  
+export const education = [
+  {
+    id: 0,
+    img: lpuLogo,
+    school: "LPU University, Jhalandar",
+    date: "Sept 2023 - Aug 2025",
+    grade: "7 CGPA",
+    desc: "I have completed my MBA in IT Management and Marketing from LPU University, Jhalandar, Punjab. During my time at LPU, I gained a strong foundation in IT Management, Marketing, and Digital Marketing. I have spent time learning and gaining insights into how businesses leverage technology and strategy to grow. Alongside, my strong background in Web and Mobile Development equips me with practical technical skills that complement my MBA journey at LPU, enabling me to bridge the gap between management concepts and digital solutions. ",
+    degree: "Master of Bussiness Administration - MBA",
+  },
+  {
+    id: 1,
+    img: pdaLogo,
+    school: "PDA College, Gulbarga",
+    date: "Sept 2018 - Aug 2021",
+    grade: "70%",
+    desc: "I completed my Bachelor’s degree in Computer Science (B.Tech) from PDA College, Gulbarga. During my studies, I gained a strong foundation in core subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I also actively participated in workshops and technical events, which helped me sharpen my skills and apply theoretical concepts in practical settings. Additionally, my academic journey at PDA College played a significant role in enhancing my technical expertise and contributing to my overall professional growth.",
+    degree: "B.Tech (Computer Science Engineering)",
+  },
+  {
+    id: 2,
+    img: alsharayLogo,
+    school: "Al Sharay Pu College, Gulbarga",
+    date: "Apr 2018 - March 2019",
+    grade: "70%",
+    desc: "I completed my class 12 education from Al Sharay Pu College, Gulbarga, India. under the CBSE board, where I studied Physics, Chemistry, Mathematics and Biology (PCMB)",
+    degree: "CBSE(XII) - PCMB",
+  },
+  {
+    id: 3,
+    img: iisjLogo,
+    school: "International Indian School Jeddah, KSA",
+    date: "Apr 2016 - March 2017",
+    grade: "72.2%",
+    desc: "I completed my class 10 education from International Indian School Jeddah, Jeddah, KSA. under the CBSE board, where I studied Science with Computer.",
+    degree: "CBSE(X), Science",
+  },
+];
+
+export const projects = [
+  {
+    id: 0,
+    title: "Adveture Mate",
+    description:
+      "A simple and engaging web application that helps travelers plan and manage their adventures. AdventureMate offers destination details, tour guide details, and traveler reviews in one place. With secure Stripe payments, users can easily book and pay, making trip planning smooth and hassle-free.",
+    image: adventureMate,
+    tags: ["Nodejs", "Express", "MongoDB", "PUG", "API"],
+    github: "https://github.com/FaizanMateen/AdventureMate",
+    webapp: "https://adventure-mate.onrender.com/",
+  },
+  {
+    id: 1,
+    title: "Wild Oasis Guest",
+    description:
+      "A simple and user-friendly web application that allows guests to seamlessly book their stays. The Wild Oasis client-side app features secure Google login for quick access, enabling guests to view available cabins and choose their preferred dates with ease. With its clean and responsive design, the app ensures a smooth booking experience from start to finish.",
+    image: wildoasisclient,
+    tags: ["React JS", "Next Js", "JavaScript", "Supabase"],
+    github: "https://github.com/FaizanMateen/wild-oasis-guest-side",
+    webapp: "https://wild-oasis-guest-side.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Wild Oasis Admin",
+    description:
+      "A web application for hotel staff to manage bookings, cabin availability, and guest check-ins/check-outs. The Wild Oasis admin app features a clear dashboard, secure login, and easy-to-use management tools, helping staff run hotel operations efficiently.",
+    image: wildoasisadmin,
+    tags: [
+      "React JS",
+      "Styled Component",
+      "Tanstack Query",
+      "JavaScript",
+      "Supabase",
+    ],
+    github: "https://github.com/FaizanMateen/the-wild-oasis",
+    webapp: "https://the-wild-oasis-originals.netlify.app/dashboard",
+  },
+  {
+    id: 3,
+    title: "Silent Witness",
+    description:
+      "Silent Witness is a web application that lets users anonymously submit incident reports through a form, including images, without revealing their identity. On the other side, police officers can access these reports and update their status as 'in progress' or 'resolved.' The app includes role-based access: lower-ranked officers can view cases, while higher-ranked officers unlock additional features. Only admins can delete bogus reports and promote users to access special features, ensuring secure and organized incident management.",
+    image: silentWitness,
+    tags: ["React JS", "Redux Toolkit", "Validation", "Supabase", "Javascript"],
+    github: "https://github.com/FaizanMateen/silent-witness",
+    webapp: "https://silentwitness.netlify.app/home",
+  },
+  {
+    id: 4,
+    title: "React Fast Pizza",
+    description:
+      "A web application for customers to book pizzas and place delivery orders with ease. The Fast pizza website is built with React.js and Tailwind CSS, featuring a clean interface and GPS-based location detection for accurate deliveries. It also collects user details for order confirmation and provides a simple dashboard for managing orders, making pizza booking fast and efficient.",
+    image: fastPizza,
+    tags: ["JavaScript", "React JS", "Redux Toolkit", "Tailwind CSS"],
+    github: "https://github.com/FaizanMateen/Fast-Pizza",
+    webapp: "https://fastpizz.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "Today I Learned",
+    description:
+      "A web application for discovering and sharing facts across various fields, including technology, science, society, and entertainment. The platform allows users to submit their own facts along with source links, ensuring credibility and engagement. It features a clean React.js and Tailwind CSS interface with multiple color modes, with redux toolkit, to enhance the reading experience and provide a personalized touch.",
+    image: todayilearned,
+    tags: ["Tailwind CSS", "JavaScript", "React JS", "Redux Toolkit"],
+    github: "https://github.com/FaizanMateen/my-first-project",
+    webapp: "https://allfactoneplace.netlify.app/",
+  },
+  {
+    id: 6,
+    title: "World Wise",
+    description:
+      "A fitness tracking application that lets users log in and monitor their walking, running, or cycling activities. The app records walking history with location details, allowing users to see in which countries they have exercised. It also enables goal setting for distance or duration, helping users stay motivated and track their progress over time.",
+    image: worldWise,
+    tags: ["React JS", "Code-Splitting", "CSS3", "Javascript"],
+    github: "https://github.com/FaizanMateen/world-Wise",
+    webapp: "https://jogg.netlify.app/",
+  },
+  {
+    id: 7,
+    title: "Movies Search Engine",
+    description:
+      "A web application for movie enthusiasts to search for films, rate them, and keep track of what they’ve watched. The platform provides a simple interface to explore movie details, add titles to a personal watchlist, and mark movies as “watched,” making it easy for users to organize and review their viewing history.",
+    image: usepopcorn,
+    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
+    github: "https://github.com/FaizanMateen/usepopcorn",
+    webapp: "https://usepopcorn-iota-five.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "Nexter",
+    description:
+      "A real estate website that showcases property listings with detailed information in a visually appealing layout. Users can explore homes, apartments, and commercial spaces with images and descriptions, making property discovery simple and engaging.",
+    image: nexter,
+    tags: ["HTML5", "SASS"],
+    github: "https://github.com/FaizanMateen/Nexter",
+    webapp: "https://nexter-to.netlify.app/",
+  },
+];

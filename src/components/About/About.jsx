@@ -8,7 +8,7 @@ function About() {
     <div>
       <section
         id="about"
-        className="py-4 px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
+        className="py-4 px-[7vw] lg:px-[16vw] font-sans mt-16 md:mt-24 lg:mt-32"
       >
         <div className="flex flex-col-reverse md:flex-row justify-between items-center">
           {/* Left Side */}
@@ -44,7 +44,7 @@ function About() {
 
             {/* Resume Button */}
             <a
-              href="https://drive.google.com/file/d/12V6sGEWrM-p0X1B55iKKUtFjyWKXtgQ2/view?usp=sharing"
+              href="https://drive.google.com/file/d/1oMtQ7O16MwZWM49gMsIs9D6nIe0XIZ1P/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -59,7 +59,7 @@ function About() {
           {/* Right Side */}
           <div className="md:w-1/2 flex justify-center md:justify-end">
             <Tilt
-              className="w-48 h-48 sm:w-64 md:w:h-[30rem] border-4 border-purple-700 rounded-full"
+              className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
               tiltMaxAngleX={20}
               tiltMaxAngleY={20}
               perspective={1000}
