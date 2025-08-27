@@ -36,15 +36,15 @@ import alsharayLogo from "./assets/education_logo/alsharay_logo.png";
 import iisjLogo from "./assets/education_logo/iisj_logo.jpeg";
 
 // Project Section Logo's
-import adventureMate from "./assets/work_logo/adventuremate.png";
-import wildoasisclient from "./assets/work_logo/wildoasisclient.png";
-import wildoasisadmin from "./assets/work_logo/wild_oasis_admin.png";
-import fastPizza from "./assets/work_logo/fastPizza.png";
-import silentWitness from "./assets/work_logo/silentWitness.png";
-import todayilearned from "./assets/work_logo/todayilearned.png";
-import worldWise from "./assets/work_logo/worldWise.png";
-import usepopcorn from "./assets/work_logo/usepopcorn.png";
-import nexter from "./assets/work_logo/nexter.png";
+import adventureMate from "./assets/work_logo/adventuremate.PNG";
+import wildoasisclient from "./assets/work_logo/wildoasisclient.PNG";
+import wildoasisadmin from "./assets/work_logo/wild_oasis_admin.PNG";
+import fastPizza from "./assets/work_logo/fastPizza.PNG";
+import silentWitness from "./assets/work_logo/silentWitness.PNG";
+import todayilearned from "./assets/work_logo/todayilearned.PNG";
+import worldWise from "./assets/work_logo/worldWise.PNG";
+import usepopcorn from "./assets/work_logo/usepopcorn.PNG";
+import nexter from "./assets/work_logo/nexter.PNG";
 
 export const SkillsInfo = [
   {
