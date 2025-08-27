@@ -107,7 +107,7 @@ export const education = [
     date: "Sept 2023 - Aug 2025",
     grade: "7 CGPA",
     desc: "I have completed my MBA in IT Management and Marketing from LPU University, Jhalandar, Punjab. During my time at LPU, I gained a strong foundation in IT Management, Marketing, and Digital Marketing. I have spent time learning and gaining insights into how businesses leverage technology and strategy to grow. Alongside, my strong background in Web and Mobile Development equips me with practical technical skills that complement my MBA journey at LPU, enabling me to bridge the gap between management concepts and digital solutions. ",
-    degree: "Master of Bussiness Administration - MBA",
+    degree: "MBA (IT Management & Marketing)",
   },
   {
     id: 1,
