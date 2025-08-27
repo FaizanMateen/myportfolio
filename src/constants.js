@@ -114,7 +114,7 @@ export const education = [
     img: pdaLogo,
     school: "PDA College, Gulbarga",
     date: "Sept 2018 - Aug 2021",
-    grade: "70%",
+    grade: "71%",
     desc: "I completed my Bachelor’s degree in Computer Science (B.Tech) from PDA College, Gulbarga. During my studies, I gained a strong foundation in core subjects such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I also actively participated in workshops and technical events, which helped me sharpen my skills and apply theoretical concepts in practical settings. Additionally, my academic journey at PDA College played a significant role in enhancing my technical expertise and contributing to my overall professional growth.",
     degree: "B.Tech (Computer Science Engineering)",
   },
