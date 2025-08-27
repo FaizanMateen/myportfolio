@@ -1,6 +1,6 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import profileImage from "../../assets/myPic.png";
+import profileImage from "../../assets/myPic.jpg";
 import Tilt from "react-parallax-tilt";
 
 function About() {
