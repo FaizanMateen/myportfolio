@@ -36,7 +36,7 @@ import alsharayLogo from "./assets/education_logo/alsharay_logo.png";
 import iisjLogo from "./assets/education_logo/iisj_logo.jpeg";
 
 // Project Section Logo's
-import adventureMate from "./assets/work_logo/adventuremate.png";
+import adventureMate from "./assets/work_logo/adventuremate.PNG";
 import wildoasisclient from "./assets/work_logo/wildoasisclient.png";
 import wildoasisadmin from "./assets/work_logo/wild_oasis_admin.png";
 import fastPizza from "./assets/work_logo/fastPizza.png";
