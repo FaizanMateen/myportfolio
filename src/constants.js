@@ -39,10 +39,10 @@ import iisjLogo from "./assets/education_logo/iisj_logo.jpeg";
 import adventuremate from "./assets/work_logo/adventuremate.PNG";
 import wildoasisclient from "./assets/work_logo/wildoasisclient.PNG";
 import wildoasisadmin from "./assets/work_logo/wild_oasis_admin.PNG";
-import fastPizza from "./assets/work_logo/fastPizza.PNG";
-import silentWitness from "./assets/work_logo/silentWitness.PNG";
+import fastpizza from "./assets/work_logo/fastpizza.PNG";
+import silentwitness from "./assets/work_logo/silentwitness.PNG";
 import todayilearned from "./assets/work_logo/todayilearned.PNG";
-import worldWise from "./assets/work_logo/worldWise.PNG";
+import worldwise from "./assets/work_logo/worldwise.PNG";
 import usepopcorn from "./assets/work_logo/usepopcorn.PNG";
 import nexter from "./assets/work_logo/nexter.PNG";
 
@@ -180,7 +180,7 @@ export const projects = [
     title: "Silent Witness",
     description:
       "Silent Witness is a web application that lets users anonymously submit incident reports through a form, including images, without revealing their identity. On the other side, police officers can access these reports and update their status as 'in progress' or 'resolved.' The app includes role-based access: lower-ranked officers can view cases, while higher-ranked officers unlock additional features. Only admins can delete bogus reports and promote users to access special features, ensuring secure and organized incident management.",
-    image: silentWitness,
+    image: silentwitness,
     tags: ["React JS", "Redux Toolkit", "Validation", "Supabase", "Javascript"],
     github: "https://github.com/FaizanMateen/silent-witness",
     webapp: "https://silentwitness.netlify.app/home",
@@ -190,7 +190,7 @@ export const projects = [
     title: "React Fast Pizza",
     description:
       "A web application for customers to book pizzas and place delivery orders with ease. The Fast pizza website is built with React.js and Tailwind CSS, featuring a clean interface and GPS-based location detection for accurate deliveries. It also collects user details for order confirmation and provides a simple dashboard for managing orders, making pizza booking fast and efficient.",
-    image: fastPizza,
+    image: fastpizza,
     tags: ["JavaScript", "React JS", "Redux Toolkit", "Tailwind CSS"],
     github: "https://github.com/FaizanMateen/Fast-Pizza",
     webapp: "https://fastpizz.netlify.app/",
@@ -210,7 +210,7 @@ export const projects = [
     title: "World Wise",
     description:
       "A fitness tracking application that lets users log in and monitor their walking, running, or cycling activities. The app records walking history with location details, allowing users to see in which countries they have exercised. It also enables goal setting for distance or duration, helping users stay motivated and track their progress over time.",
-    image: worldWise,
+    image: worldwise,
     tags: ["React JS", "Code-Splitting", "CSS3", "Javascript"],
     github: "https://github.com/FaizanMateen/world-Wise",
     webapp: "https://jogg.netlify.app/",
